@@ -2,22 +2,21 @@ import React, { useState } from 'react'
 
 export function NameInput(props) {
   const [item, setItem] = useState("");
-  const [items, setItems] = useState(props.items);
 
   function onAddButtonClick() {
-    let newItems = Array.from(items);
-    newItems.push(item);
-    setItems(newItems);
+    props.addIt(oldItems => {
+      console.log(oldItems);
 
-    props.addIt(newItems);
-    setItem('');
+      let newItems = Array.from(oldItems);
+      newItems.push(item);
+      return newItems;
+    });
   }
 
   function handleChange(event) {
     setItem(event.target.value);
   }
   function onClearItemsClick(event) {
-    setItems([]);
     props.addIt([]);
   }
 
@@ -28,19 +27,11 @@ export function NameInput(props) {
       color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
-    // style={{backgroundColor: getRandomColor()}}
   }
-
-  // useEffect(() => {
-  //   // document.title = `You clicked ${count} times`;
-  // });
 
   return (
     <div>
       <h2>{props.title}</h2>
-      {items}
-
-      <p style={{color: "#aaa"}}>{props.items.join(', ')}</p>
 
       <label>{props.label}</label>
       <input type="text" value={item} onChange={handleChange} />
