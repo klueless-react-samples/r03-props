@@ -11,17 +11,11 @@ Before and after for R03 Props
 <table>
 <tr>
   <th>Before</th>
-  <th>After</th>
 </tr>
 <tr>
   <td>
   
-  ![Before](shot-before.png 'Before screenshot')
-  
-  </td>
-  <td>
-  
-  ![After](shot-after.png 'After screenshot')
+  ![After](shot.png 'After screenshot')
   
   </td>
 </tr>
