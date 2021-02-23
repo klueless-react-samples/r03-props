@@ -6,11 +6,9 @@ As a Front End Developer, I quickly understand components, state and functions, 
 
 ## Before and After
 
-Before and after for R03 Props 
-
 <table>
 <tr>
-  <th>Before</th>
+  <th>Final</th>
 </tr>
 <tr>
   <td>
