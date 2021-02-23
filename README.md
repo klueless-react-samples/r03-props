@@ -1,4 +1,48 @@
-# Getting Started with Create React App
+# R03 Props
+
+> R03 Props 
+
+As a Front End Developer, I quickly understand components, state and functions, so that I can build complex react applications
+
+## Before and After
+
+Before and after for R03 Props 
+
+<table>
+<tr>
+  <th>Before</th>
+  <th>After</th>
+</tr>
+<tr>
+  <td>
+  
+  ![Before](shot-before.png 'Before screenshot')
+  
+  </td>
+  <td>
+  
+  ![After](shot-after.png 'After screenshot')
+  
+  </td>
+</tr>
+</table>
+
+## Development
+
+Run VSCode Live Server on index.html or open in your browser
+
+```bash
+# cd [YouCustomDevFolder]
+git clone git@github.com:klueless-html-samples/r03-props.git && cd r03-props
+
+npm install
+yarn start
+
+# use a command to open index.html in browser.
+# this is how I setup my Mac alias for chrome
+# alias chrome="open -a Google\ Chrome"
+chrome index.html
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +112,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## License
+
+The code is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Copyright
+
+Copyright (c) David Cruwys. See [MIT License](LICENSE.txt) for further details.
